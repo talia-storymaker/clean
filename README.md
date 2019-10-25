@@ -1,0 +1,2 @@
+# clean
+ ElkArte theme Clean.
