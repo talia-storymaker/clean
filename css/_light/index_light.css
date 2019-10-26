@@ -1,3 +1,17 @@
+/*----- 
+SASS VARIABLES
+-----*/
+/*----- 
+ELKARTE "RESETS"
+-----*/
+/* removing rounded corners */
+.linklevel1, #wrapper, .category_header, .forum_category .category_header, input, button, select, textarea, .editor, #search_form .input_text {
+  border-radius: 0;
+}
 
+/* removing borders */
+#wrapper, .board_row, .childboard_row, .forumposts > li, .content_category > div, .content_category > li, .linklevel1, .linklevel1.active, .listlevel1:hover .active, #collapse_button .linklevel1, .pm_indicator, .likes_indicator, .linklevel1.active:hover, .listlevel1:hover .linklevel1.active, #collapse_button .linklevel1:hover, .linklevel1:hover .pm_indicator, .linklevel1:hover, .listlevel1:hover .linklevel1, .linklevel2:hover, .listlevel2:hover .linklevel2, .linklevel3:hover, .listlevel3:hover .linklevel3, #menu_sidebar .linklevel1:hover, #menu_sidebar .listlevel1:hover .linklevel1, #menu_current_area > strong > .linklevel1, #news_line, #news, .navigate_section, .category_header, .forum_category .category_header, #top_section, #footer_section, .ic_section_header, input, button, select, textarea, .editor, .linktree, .board_latest, #gotop, #gobottom {
+  border: none;
+}
 
 /*# sourceMappingURL=index_light.css.map */
