@@ -2,11 +2,23 @@
 SASS VARIABLES
 -----*/
 
-$primary: #ededf8;
+$primary: #f1f1f9;
 $secondary: #1b1b31;
-$tertiary: #bebec3;
-$quaternary: #d6d6db;
+$text: #222;
+$link: #45617d;
+$link-visited: #44447c;
 
+/*----- 
+SASS MIXINS
+-----*/
+
+@mixin secondary-bg-primary-txt {
+    background: $secondary;
+    color: $primary;
+    a, a:visited {
+        color: $primary;
+    }
+}
 
 /*----- 
 ELKARTE "RESETS"
@@ -24,16 +36,39 @@ GENERAL
 
 body {
     background: $primary;
+    color: $secondary;
+    font-size: 1em;
+}
+
+a {
+    color: $link;
+}
+
+a:visited {
+    color: $link-visited;
 }
 
 /*----- 
 HEADERS
 -----*/
 
-header {
-    background: $secondary;
-    color: $primary;
-    a {
-        color: $primary;
-    }
+header, h1, h2 {
+    @include secondary-bg-primary-txt;
+}
+
+/*----- 
+NAVIGATION
+-----*/
+
+.menulevel2, .menulevel3 {
+    @include secondary-bg-primary-txt;
+}
+
+/*----- 
+NEWS
+-----*/
+
+#news > h2 {
+    background: inherit;
+    color: inherit;
 }

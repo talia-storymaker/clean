@@ -2,6 +2,9 @@
 SASS VARIABLES
 -----*/
 /*----- 
+SASS MIXINS
+-----*/
+/*----- 
 ELKARTE "RESETS"
 -----*/
 /* removing rounded corners and borders */
@@ -14,18 +17,47 @@ ELKARTE "RESETS"
 GENERAL
 -----*/
 body {
-  background: #ededf8;
+  background: #f1f1f9;
+  color: #1b1b31;
+  font-size: 1em;
+}
+
+a {
+  color: #45617d;
+}
+
+a:visited {
+  color: #44447c;
 }
 
 /*----- 
 HEADERS
 -----*/
-header {
+header, h1, h2 {
   background: #1b1b31;
-  color: #ededf8;
+  color: #f1f1f9;
 }
-header a {
-  color: #ededf8;
+header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited {
+  color: #f1f1f9;
+}
+
+/*----- 
+NAVIGATION
+-----*/
+.menulevel2, .menulevel3 {
+  background: #1b1b31;
+  color: #f1f1f9;
+}
+.menulevel2 a, .menulevel2 a:visited, .menulevel3 a, .menulevel3 a:visited {
+  color: #f1f1f9;
+}
+
+/*----- 
+NEWS
+-----*/
+#news > h2 {
+  background: inherit;
+  color: inherit;
 }
 
 /*# sourceMappingURL=index_light.css.map */
