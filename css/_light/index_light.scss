@@ -2,9 +2,9 @@
 SASS VARIABLES
 -----*/
 
-$primary: #f1f1f9;
+$primary: #f6f6fb;
 $secondary: #1b1b31;
-$text: #222;
+$tertiary: #d1d1e0;
 $link: #45617d;
 $link-visited: #44447c;
 
@@ -20,11 +20,20 @@ SASS MIXINS
     }
 }
 
+@mixin inherit-bg-txt {
+    background: inherit;
+    color: inherit;
+    a {
+        color: inherit;
+    }
+}
+
 /*----- 
 ELKARTE "RESETS"
 -----*/
 
 /* removing rounded corners and borders */
+
 .linklevel1, #wrapper, .category_header, .forum_category .category_header, input, button, select, textarea, .editor, #search_form .input_text, .menulevel2, .menulevel3, .board_row, .childboard_row, .forumposts > li, .content_category > div, .content_category > li, .linklevel1.active, .listlevel1:hover .active, #collapse_button .linklevel1, .pm_indicator, .likes_indicator, .linklevel1.active:hover, .listlevel1:hover .linklevel1.active, #collapse_button .linklevel1:hover, .linklevel1:hover .pm_indicator, .linklevel1:hover, .listlevel1:hover .linklevel1, .linklevel2:hover, .listlevel2:hover .linklevel2, .linklevel3:hover, .listlevel3:hover .linklevel3, #menu_sidebar .linklevel1:hover, #menu_sidebar .listlevel1:hover .linklevel1, #menu_current_area > strong > .linklevel1, #news_line, #news, .navigate_section, #top_section, #footer_section, .ic_section_header, .linktree, .board_latest, #gotop, #gobottom, .linklevel2:link, .linklevel2:visited, .linklevel3:link, .linklevel3:visited, .pagelinks :last-child, .pagelinks .navPages:hover, .pagelinks .current_page, #description_board .generalinfo, #forumposts .generalinfo, #sort_by, .topic_listing > li, #topic_icons, input[type="submit"], .drop_area_fileselect_text, .drop_area .mobile, button[type="submit"], input[type="button"], .linkbutton:link, .linkbutton_right:link, .linkbutton_left:link, .linkbutton:visited, .linkbutton_right:visited, .linkbutton_left:visited, .forumposts, .inner, .messageContent, .poster_online .linklevel1, .poster li.poster_online:hover .linklevel1, .well, .roundframe, .description, .information, .warningbox, .successbox, .infobox, .errorbox {
     border: none;
     border-radius: 0;
@@ -64,11 +73,37 @@ NAVIGATION
     @include secondary-bg-primary-txt;
 }
 
+/* breadcrumbs */
+
+.linktree, .linktree::after {
+    background: $tertiary;
+    box-shadow: 2px -2px 0 1px $primary;
+}
+
+.linktree:last-child {
+    @include secondary-bg-primary-txt;
+}
+
+.linktree:last-child::after {
+    background: $secondary;
+}
+
 /*----- 
 NEWS
 -----*/
 
 #news > h2 {
-    background: inherit;
-    color: inherit;
+    @include inherit-bg-txt;
+}
+
+/*----- 
+POSTS
+-----*/
+
+.keyinfo, .post_subject {
+    @include inherit-bg-txt;
+}
+
+.post_wrapper {
+    border-bottom: 1px $tertiary solid;
 }

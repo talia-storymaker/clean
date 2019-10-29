@@ -17,7 +17,7 @@ ELKARTE "RESETS"
 GENERAL
 -----*/
 body {
-  background: #f1f1f9;
+  background: #f6f6fb;
   color: #1b1b31;
   font-size: 1em;
 }
@@ -35,10 +35,10 @@ HEADERS
 -----*/
 header, h1, h2 {
   background: #1b1b31;
-  color: #f1f1f9;
+  color: #f6f6fb;
 }
 header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited {
-  color: #f1f1f9;
+  color: #f6f6fb;
 }
 
 /*----- 
@@ -46,10 +46,28 @@ NAVIGATION
 -----*/
 .menulevel2, .menulevel3 {
   background: #1b1b31;
-  color: #f1f1f9;
+  color: #f6f6fb;
 }
 .menulevel2 a, .menulevel2 a:visited, .menulevel3 a, .menulevel3 a:visited {
-  color: #f1f1f9;
+  color: #f6f6fb;
+}
+
+/* breadcrumbs */
+.linktree, .linktree::after {
+  background: #d1d1e0;
+  box-shadow: 2px -2px 0 1px #f6f6fb;
+}
+
+.linktree:last-child {
+  background: #1b1b31;
+  color: #f6f6fb;
+}
+.linktree:last-child a, .linktree:last-child a:visited {
+  color: #f6f6fb;
+}
+
+.linktree:last-child::after {
+  background: #1b1b31;
 }
 
 /*----- 
@@ -58,6 +76,24 @@ NEWS
 #news > h2 {
   background: inherit;
   color: inherit;
+}
+#news > h2 a {
+  color: inherit;
+}
+
+/*----- 
+POSTS
+-----*/
+.keyinfo, .post_subject {
+  background: inherit;
+  color: inherit;
+}
+.keyinfo a, .post_subject a {
+  color: inherit;
+}
+
+.post_wrapper {
+  border-bottom: 1px #d1d1e0 solid;
 }
 
 /*# sourceMappingURL=index_light.css.map */
