@@ -22,12 +22,19 @@ body {
   font-size: 1em;
 }
 
+/*----- 
+LINKS
+-----*/
 a {
   color: #45617d;
 }
 
 a:visited {
   color: #44447c;
+}
+
+.linklevel1:hover {
+  background: #d1d1e0;
 }
 
 /*----- 
@@ -44,6 +51,10 @@ header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited {
 /*----- 
 NAVIGATION
 -----*/
+#menu_nav .linklevel1:hover {
+  background: transparent;
+}
+
 .menulevel2, .menulevel3 {
   background: #1b1b31;
   color: #f6f6fb;
@@ -55,6 +66,14 @@ NAVIGATION
 /* breadcrumbs */
 .linktree, .linktree::after {
   background: #d1d1e0;
+}
+
+.linktree {
+  border: 3px #f6f6fb solid;
+  border-width: 3px 0;
+}
+
+.linktree::after {
   box-shadow: 2px -2px 0 1px #f6f6fb;
 }
 
