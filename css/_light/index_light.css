@@ -1,6 +1,9 @@
 /*----- 
 SASS VARIABLES
 -----*/
+/* main */
+/* link colors */
+/* warnings, etc. */
 /*----- 
 SASS MIXINS
 -----*/
@@ -17,7 +20,7 @@ ELKARTE "RESETS"
 GENERAL
 -----*/
 body {
-  background: #f6f6fb;
+  background: #fafafd;
   color: #1b1b31;
   font-size: 1em;
 }
@@ -38,14 +41,25 @@ a:visited {
 }
 
 /*----- 
+BUTTONS & INPUTS
+-----*/
+button, select, input, input[type=submit], button[type=submit], input[type=button], textarea, #search_form button, .editor {
+  border: 1px #d1d1e0 solid;
+}
+
+#search_form button {
+  border-width: 0 0 0 1px;
+}
+
+/*----- 
 HEADERS
 -----*/
 header, h1, h2 {
   background: #1b1b31;
-  color: #f6f6fb;
+  color: #fafafd;
 }
 header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited {
-  color: #f6f6fb;
+  color: #fafafd;
 }
 
 /*----- 
@@ -57,10 +71,10 @@ NAVIGATION
 
 .menulevel2, .menulevel3 {
   background: #1b1b31;
-  color: #f6f6fb;
+  color: #fafafd;
 }
 .menulevel2 a, .menulevel2 a:visited, .menulevel3 a, .menulevel3 a:visited {
-  color: #f6f6fb;
+  color: #fafafd;
 }
 
 /* breadcrumbs */
@@ -69,20 +83,20 @@ NAVIGATION
 }
 
 .linktree {
-  border: 3px #f6f6fb solid;
+  border: 3px #fafafd solid;
   border-width: 3px 0;
 }
 
 .linktree::after {
-  box-shadow: 2px -2px 0 1px #f6f6fb;
+  box-shadow: 2px -2px 0 1px #fafafd;
 }
 
 .linktree:last-child {
   background: #1b1b31;
-  color: #f6f6fb;
+  color: #fafafd;
 }
 .linktree:last-child a, .linktree:last-child a:visited {
-  color: #f6f6fb;
+  color: #fafafd;
 }
 
 .linktree:last-child::after {
@@ -101,6 +115,22 @@ NEWS
 }
 
 /*----- 
+BOARDS INDEX
+-----*/
+.forum_category {
+  padding: 1em;
+  margin-bottom: 0.5em;
+}
+
+.board_row {
+  margin-top: 1em;
+}
+
+.board_row:first-of-type {
+  margin-top: 0;
+}
+
+/*----- 
 POSTS
 -----*/
 .keyinfo, .post_subject {
@@ -113,6 +143,13 @@ POSTS
 
 .post_wrapper {
   border-bottom: 1px #d1d1e0 solid;
+}
+
+/*----- 
+WARNINGS, ETC.
+-----*/
+.warningbox {
+  background: #fff176;
 }
 
 /*# sourceMappingURL=index_light.css.map */

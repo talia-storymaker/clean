@@ -2,11 +2,20 @@
 SASS VARIABLES
 -----*/
 
-$primary: #f6f6fb;
+/* main */
+
+$primary: #fafafd;
 $secondary: #1b1b31;
 $tertiary: #d1d1e0;
+
+/* link colors */
+
 $link: #45617d;
 $link-visited: #44447c;
+
+/* warnings, etc. */
+
+$warning: #fff176;
 
 /*----- 
 SASS MIXINS
@@ -66,6 +75,17 @@ a:visited {
 }
 
 /*----- 
+BUTTONS & INPUTS
+-----*/
+button, select, input, input[type="submit"], button[type="submit"], input[type="button"], textarea, #search_form button, .editor {
+    border: 1px $tertiary solid;
+}
+
+#search_form button {
+    border-width: 0 0 0 1px;
+}
+
+/*----- 
 HEADERS
 -----*/
 
@@ -117,6 +137,23 @@ NEWS
 }
 
 /*----- 
+BOARDS INDEX
+-----*/
+
+.forum_category {
+    padding: 1em;
+    margin-bottom: 0.5em;
+}
+
+.board_row {
+    margin-top: 1em;
+}
+
+.board_row:first-of-type {
+    margin-top: 0;
+}
+
+/*----- 
 POSTS
 -----*/
 
@@ -126,4 +163,12 @@ POSTS
 
 .post_wrapper {
     border-bottom: 1px $tertiary solid;
+}
+
+/*----- 
+WARNINGS, ETC.
+-----*/
+
+.warningbox {
+    background: $warning;
 }
