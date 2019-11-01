@@ -8,6 +8,12 @@ $primary: #fafafd;
 $secondary: #1b1b31;
 $tertiary: #d1d1e0;
 
+/* main variants */
+
+$secondary-light: scale-color($secondary, $lightness: 10%);
+$tertiary-light: scale-color($tertiary, $lightness: 50%);
+$tertiary-lighter: scale-color($tertiary, $lightness: 70%);
+
 /* link colors */
 
 $link: #45617d;
@@ -26,6 +32,9 @@ SASS MIXINS
     color: $primary;
     a, a:visited {
         color: $primary;
+    }
+    a:hover {
+        background: $secondary-light;
     }
 }
 
@@ -81,6 +90,14 @@ button, select, input, input[type="submit"], button[type="submit"], input[type="
     border: 1px $tertiary solid;
 }
 
+button, input[type="submit"], button[type="submit"], input[type="button"] {
+    background: $tertiary-light;
+}
+
+button:hover, input[type="submit"]:hover, button[type="submit"]:hover, input[type="button"]:hover {
+    background: $tertiary-lighter;
+}
+
 #search_form button {
     border-width: 0 0 0 1px;
 }
@@ -98,7 +115,7 @@ NAVIGATION
 -----*/
 
 #menu_nav .linklevel1:hover {
-    background: transparent;
+    background: $secondary-light;
 }
 
 .menulevel2, .menulevel3 {

@@ -2,6 +2,7 @@
 SASS VARIABLES
 -----*/
 /* main */
+/* main variants */
 /* link colors */
 /* warnings, etc. */
 /*----- 
@@ -47,6 +48,14 @@ button, select, input, input[type=submit], button[type=submit], input[type=butto
   border: 1px #d1d1e0 solid;
 }
 
+button, input[type=submit], button[type=submit], input[type=button] {
+  background: #e8e8f0;
+}
+
+button:hover, input[type=submit]:hover, button[type=submit]:hover, input[type=button]:hover {
+  background: #f1f1f6;
+}
+
 #search_form button {
   border-width: 0 0 0 1px;
 }
@@ -61,12 +70,15 @@ header, h1, h2 {
 header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited {
   color: #fafafd;
 }
+header a:hover, h1 a:hover, h2 a:hover {
+  background: #2a2a4d;
+}
 
 /*----- 
 NAVIGATION
 -----*/
 #menu_nav .linklevel1:hover {
-  background: transparent;
+  background: #2a2a4d;
 }
 
 .menulevel2, .menulevel3 {
@@ -75,6 +87,9 @@ NAVIGATION
 }
 .menulevel2 a, .menulevel2 a:visited, .menulevel3 a, .menulevel3 a:visited {
   color: #fafafd;
+}
+.menulevel2 a:hover, .menulevel3 a:hover {
+  background: #2a2a4d;
 }
 
 /* breadcrumbs */
@@ -97,6 +112,9 @@ NAVIGATION
 }
 .linktree:last-child a, .linktree:last-child a:visited {
   color: #fafafd;
+}
+.linktree:last-child a:hover {
+  background: #2a2a4d;
 }
 
 .linktree:last-child::after {
