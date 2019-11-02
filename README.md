@@ -1,2 +1,2 @@
 # clean
- ElkArte theme Clean.
+**Work in progress.** Clean is a theme for <a href="https://www.elkarte.net/" target="_blank" rel="noopener">ElkArte</a> (an open source forum software) designed to be refreshingly simple and modern.
