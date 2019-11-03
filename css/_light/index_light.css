@@ -4,7 +4,7 @@ SASS VARIABLES
 /* main */
 /* main variants */
 /* link colors */
-/* warnings, etc. */
+/* warnings, alerts, etc. */
 /*----- 
 SASS MIXINS
 -----*/
@@ -164,10 +164,38 @@ POSTS
 }
 
 /*----- 
-WARNINGS, ETC.
+ALERTS, WARNINGS, ETC.
 -----*/
+.errorbox {
+  background: #fe9290;
+}
+
 .warningbox {
-  background: #fff176;
+  background: #ffd39e;
+}
+
+.successbox {
+  background: #98eeb5;
+}
+
+.alert, .warn-mute, #top_section_notice {
+  color: #890301;
+}
+
+.warn_moderate, .softalert {
+  color: #bc6600;
+}
+
+.warn_watch, .success {
+  color: #105e2a;
+}
+
+.error {
+  color: #890301 !important;
+}
+
+.border_error {
+  border-color: #890301 !important;
 }
 
 /*# sourceMappingURL=index_light.css.map */

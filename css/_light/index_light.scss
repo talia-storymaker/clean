@@ -19,9 +19,15 @@ $tertiary-lighter: scale-color($tertiary, $lightness: 70%);
 $link: #45617d;
 $link-visited: #44447c;
 
-/* warnings, etc. */
+/* warnings, alerts, etc. */
 
-$warning: #fff176;
+$warning: #bc6600;
+$warning-strong: #890301;
+$success: #105e2a;
+
+$warning-bg: scale-color($warning, $lightness: 70%);
+$warning-strong-bg: scale-color($warning-strong, $lightness: 70%);
+$success-bg: scale-color($success, $lightness: 70%);
 
 /*----- 
 SASS MIXINS
@@ -183,9 +189,37 @@ POSTS
 }
 
 /*----- 
-WARNINGS, ETC.
+ALERTS, WARNINGS, ETC.
 -----*/
 
+.errorbox {
+    background: $warning-strong-bg;
+}
+
 .warningbox {
-    background: $warning;
+    background: $warning-bg;
+}
+
+.successbox {
+    background: $success-bg;
+}
+
+.alert, .warn-mute, #top_section_notice {
+	color: $warning-strong;
+}
+
+.warn_moderate, .softalert {
+    color: $warning;
+}
+
+.warn_watch, .success {
+    color: $success;
+}
+
+.error {
+	color: $warning-strong !important;
+}
+
+.border_error {
+	border-color: $warning-strong !important;
 }
