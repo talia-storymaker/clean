@@ -60,6 +60,10 @@ button:hover, input[type=submit]:hover, button[type=submit]:hover, input[type=bu
   border-width: 0 0 0 1px;
 }
 
+textarea {
+  padding: 0.5em;
+}
+
 /*----- 
 HEADERS
 -----*/
