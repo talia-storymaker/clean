@@ -96,6 +96,10 @@ NAVIGATION
   background: #2a2a4d;
 }
 
+.subsections:hover .linklevel1::after {
+  content: "";
+}
+
 /* breadcrumbs */
 .linktree, .linktree::after {
   background: #d1d1e0;

@@ -132,6 +132,10 @@ NAVIGATION
     @include secondary-bg-primary-txt;
 }
 
+.subsections:hover .linklevel1::after {
+    content: '';
+}
+
 /* breadcrumbs */
 
 .linktree, .linktree::after {
