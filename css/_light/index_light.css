@@ -12,7 +12,7 @@ SASS MIXINS
 ELKARTE "RESETS"
 -----*/
 /* removing rounded corners and borders */
-.linklevel1, #wrapper, .category_header, .forum_category .category_header, input, button, select, textarea, .editor, #search_form .input_text, .menulevel2, .menulevel3, .board_row, .childboard_row, .forumposts > li, .content_category > div, .content_category > li, .linklevel1.active, .listlevel1:hover .active, #collapse_button .linklevel1, .pm_indicator, .likes_indicator, .linklevel1.active:hover, .listlevel1:hover .linklevel1.active, #collapse_button .linklevel1:hover, .linklevel1:hover .pm_indicator, .linklevel1:hover, .listlevel1:hover .linklevel1, .linklevel2:hover, .listlevel2:hover .linklevel2, .linklevel3:hover, .listlevel3:hover .linklevel3, #menu_sidebar .linklevel1:hover, #menu_sidebar .listlevel1:hover .linklevel1, #menu_current_area > strong > .linklevel1, #news_line, #news, .navigate_section, #top_section, #footer_section, .ic_section_header, .linktree, .board_latest, #gotop, #gobottom, .linklevel2:link, .linklevel2:visited, .linklevel3:link, .linklevel3:visited, .pagelinks :last-child, .pagelinks .navPages:hover, .pagelinks .current_page, #description_board .generalinfo, #forumposts .generalinfo, #sort_by, .topic_listing > li, #topic_icons, input[type=submit], .drop_area_fileselect_text, .drop_area .mobile, button[type=submit], input[type=button], .linkbutton:link, .linkbutton_right:link, .linkbutton_left:link, .linkbutton:visited, .linkbutton_right:visited, .linkbutton_left:visited, .forumposts, .inner, .messageContent, .poster_online .linklevel1, .poster li.poster_online:hover .linklevel1, .well, .roundframe, .description, .information, .warningbox, .successbox, .infobox, .errorbox, .table_grid, fieldset, .content, .generic_list_wrapper, .mlist li div:first-child, .mlist li.alternate_row div, .whos_online dd:nth-child(2n) div, .mlist li div:last-child, .mlist li div, .whos_online dt div, .whos_online dd:nth-child(2n+1) div, .letter_row > h3, #helpmain, #main_grid .calendar_today, #month_grid .calendar_today, #calendar_navigation, .weeklist > li, #postAdditionalOptionsNC, #postMoreOptions {
+.linklevel1, #wrapper, .category_header, .forum_category .category_header, input, button, select, textarea, .editor, #search_form .input_text, .menulevel2, .menulevel3, .board_row, .childboard_row, .forumposts > li, .content_category > div, .content_category > li, .linklevel1.active, .listlevel1:hover .active, #collapse_button .linklevel1, .pm_indicator, .likes_indicator, .linklevel1.active:hover, .listlevel1:hover .linklevel1.active, #collapse_button .linklevel1:hover, .linklevel1:hover .pm_indicator, .linklevel1:hover, .listlevel1:hover .linklevel1, .linklevel2:hover, .listlevel2:hover .linklevel2, .linklevel3:hover, .listlevel3:hover .linklevel3, #menu_sidebar .linklevel1:hover, #menu_sidebar .listlevel1:hover .linklevel1, #menu_current_area > strong > .linklevel1, #news_line, #news, .navigate_section, #top_section, #footer_section, .ic_section_header, .linktree, .board_latest, #gotop, #gobottom, .linklevel2:link, .linklevel2:visited, .linklevel3:link, .linklevel3:visited, .pagelinks :last-child, .pagelinks .navPages:hover, .pagelinks .current_page, #description_board .generalinfo, #forumposts .generalinfo, #sort_by, .topic_listing > li, #topic_icons, input[type=submit], .drop_area_fileselect_text, .drop_area .mobile, button[type=submit], input[type=button], .linkbutton:link, .linkbutton_right:link, .linkbutton_left:link, .linkbutton:visited, .linkbutton_right:visited, .linkbutton_left:visited, .forumposts, .inner, .messageContent, .poster_online .linklevel1, .poster li.poster_online:hover .linklevel1, .well, .roundframe, .description, .information, .warningbox, .successbox, .infobox, .errorbox, .table_grid, fieldset, .content, .generic_list_wrapper, .mlist li div:first-child, .mlist li.alternate_row div, .whos_online dd:nth-child(2n) div, .mlist li div:last-child, .mlist li div, .whos_online dt div, .whos_online dd:nth-child(2n+1) div, .letter_row > h3, #helpmain, #main_grid .calendar_today, #month_grid .calendar_today, #calendar_navigation, .weeklist > li, #postAdditionalOptionsNC, #postMoreOptions, .secondary_header {
   border: none;
   border-radius: 0;
 }
@@ -71,15 +71,19 @@ textarea {
 /*----- 
 HEADERS
 -----*/
-header, h1, h2 {
+header, h1, h2, .panel_toggle {
   background: #1b1b31;
   color: #fafafd;
 }
-header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited {
+header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited, .panel_toggle a, .panel_toggle a:visited {
   color: #fafafd;
 }
-header a:hover, h1 a:hover, h2 a:hover {
+header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover {
   background: #2a2a4d;
+}
+
+h3.panel_toggle .chevricon {
+  line-height: 2.25em;
 }
 
 /*----- 
