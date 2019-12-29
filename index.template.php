@@ -59,7 +59,7 @@ function template_init()
 		'require_theme_strings' => false,
 
 		// This is used for the color variants.
-		'theme_variants' => array('light', 'besocial'),
+		'theme_variants' => array('default', 'red'),
 
 		// Provides avatars for use on various indexes.
 		// Possible values:

@@ -1,0 +1,282 @@
+/*----- 
+SASS VARIABLES
+-----*/
+/* main */
+/* main variants */
+/* link colors */
+/* warnings, alerts, etc. */
+/*----- 
+SASS MIXINS
+-----*/
+/*----- 
+ELKARTE "RESETS"
+-----*/
+/* removing rounded corners and borders */
+.linklevel1, #wrapper, .category_header, .forum_category .category_header, input, button, select, textarea, .editor, #search_form .input_text, .menulevel2, .menulevel3, .board_row, .childboard_row, .forumposts > li, .content_category > div, .content_category > li, .linklevel1.active, .listlevel1:hover .active, #collapse_button .linklevel1, .pm_indicator, .likes_indicator, .linklevel1.active:hover, .listlevel1:hover .linklevel1.active, #collapse_button .linklevel1:hover, .linklevel1:hover .pm_indicator, .linklevel1:hover, .listlevel1:hover .linklevel1, .linklevel2:hover, .listlevel2:hover .linklevel2, .linklevel3:hover, .listlevel3:hover .linklevel3, #menu_sidebar .linklevel1:hover, #menu_sidebar .listlevel1:hover .linklevel1, #menu_current_area > strong > .linklevel1, #news_line, #news, .navigate_section, #top_section, #footer_section, .ic_section_header, .linktree, .board_latest, #gotop, #gobottom, .linklevel2:link, .linklevel2:visited, .linklevel3:link, .linklevel3:visited, .pagelinks :last-child, .pagelinks .navPages:hover, .pagelinks .current_page, #description_board .generalinfo, #forumposts .generalinfo, #sort_by, .topic_listing > li, #topic_icons, input[type=submit], .drop_area_fileselect_text, .drop_area .mobile, button[type=submit], input[type=button], .linkbutton:link, .linkbutton_right:link, .linkbutton_left:link, .linkbutton:visited, .linkbutton_right:visited, .linkbutton_left:visited, .forumposts, .inner, .messageContent, .poster_online .linklevel1, .poster li.poster_online:hover .linklevel1, .well, .roundframe, .description, .information, .warningbox, .successbox, .infobox, .errorbox, .table_grid, fieldset, .content, .generic_list_wrapper, .mlist li div:first-child, .mlist li.alternate_row div, .whos_online dd:nth-child(2n) div, .mlist li div:last-child, .mlist li div, .whos_online dt div, .whos_online dd:nth-child(2n+1) div, .letter_row > h3, #helpmain, #main_grid .calendar_today, #month_grid .calendar_today, #calendar_navigation, .weeklist > li, #postAdditionalOptionsNC, #postMoreOptions, .secondary_header, .tooltip, .ui-tabs .ui-tabs-panel {
+  border: none;
+  border-radius: 0;
+}
+
+/*----- 
+GENERAL
+-----*/
+body {
+  background: #FDFAFA;
+  color: #311B1B;
+  font-size: 1em;
+}
+
+.clear {
+  opacity: 0;
+}
+
+/*----- 
+LINKS
+-----*/
+a {
+  color: #45617d;
+}
+
+a:visited {
+  color: #44447c;
+}
+
+.linklevel1:hover {
+  background: #E0D1D1;
+}
+
+/*----- 
+BUTTONS & INPUTS
+-----*/
+button, select, input, input[type=submit], button[type=submit], input[type=button], textarea, #search_form button, .editor {
+  border: 1px #E0D1D1 solid;
+}
+
+button, input[type=submit], button[type=submit], input[type=button] {
+  background: #f0e8e8;
+}
+
+button:hover, input[type=submit]:hover, button[type=submit]:hover, input[type=button]:hover {
+  background: #f6f1f1;
+}
+
+#search_form button {
+  border-width: 0 0 0 1px;
+}
+
+textarea {
+  padding: 0.5em;
+}
+
+/*----- 
+HEADERS
+-----*/
+header, h1, h2, .panel_toggle {
+  background: #311B1B;
+  color: #FDFAFA;
+}
+header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited, .panel_toggle a, .panel_toggle a:visited {
+  color: #FDFAFA;
+}
+header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover {
+  background: #4d2a2a;
+}
+
+h3.panel_toggle .chevricon {
+  line-height: 2.25em;
+}
+
+/*----- 
+NAVIGATION
+-----*/
+#menu_nav .linklevel1:hover {
+  background: #4d2a2a;
+}
+
+.menulevel2, .menulevel3 {
+  background: #311B1B;
+  color: #FDFAFA;
+}
+.menulevel2 a, .menulevel2 a:visited, .menulevel3 a, .menulevel3 a:visited {
+  color: #FDFAFA;
+}
+.menulevel2 a:hover, .menulevel3 a:hover {
+  background: #4d2a2a;
+}
+
+.subsections:hover .linklevel1::after {
+  content: "";
+}
+
+/* breadcrumbs */
+.linktree, .linktree::after {
+  background: #E0D1D1;
+}
+
+.linktree {
+  border: 3px #FDFAFA solid;
+  border-width: 3px 0;
+}
+
+.linktree::after {
+  box-shadow: 2px -2px 0 1px #FDFAFA;
+}
+
+.linktree:last-child {
+  background: #311B1B;
+  color: #FDFAFA;
+}
+.linktree:last-child a, .linktree:last-child a:visited {
+  color: #FDFAFA;
+}
+.linktree:last-child a:hover {
+  background: #4d2a2a;
+}
+
+.linktree:last-child::after {
+  background: #311B1B;
+}
+
+/*----- 
+NEWS
+-----*/
+#news > h2 {
+  background: inherit;
+  color: inherit;
+}
+#news > h2 a {
+  color: inherit;
+}
+
+/*----- 
+BOARDS INDEX
+-----*/
+.forum_category {
+  padding: 1em;
+  margin-bottom: 0.5em;
+}
+
+.board_row {
+  margin-top: 1em;
+}
+
+.board_row:first-of-type {
+  margin-top: 0;
+}
+
+#info_center h2 {
+  margin-bottom: 1em;
+}
+
+/*----- 
+POSTS
+-----*/
+.keyinfo, .post_subject {
+  background: inherit;
+  color: inherit;
+}
+.keyinfo a, .post_subject a {
+  color: inherit;
+}
+
+.post_wrapper {
+  border-bottom: 1px #E0D1D1 solid;
+}
+
+/*----- 
+TABLES
+-----*/
+.table_head {
+  background: #311B1B;
+  color: #FDFAFA;
+}
+.table_head a, .table_head a:visited {
+  color: #FDFAFA;
+}
+.table_head a:hover {
+  background: #4d2a2a;
+}
+
+.table_head .i-sort-numeric-down::before {
+  background: #FDFAFA;
+  position: relative;
+  top: -3px;
+}
+
+.table_grid td {
+  border-color: #E0D1D1;
+}
+
+/*----- 
+ALERTS, WARNINGS, NOTIFICATIONS, ETC.
+-----*/
+.errorbox {
+  background: #fe9290;
+}
+
+.warningbox {
+  background: #ffd39e;
+}
+
+.successbox {
+  background: #98eeb5;
+}
+
+.alert, .warn-mute, #top_section_notice {
+  color: #890301;
+}
+
+.warn_moderate, .softalert {
+  color: #bc6600;
+}
+
+.warn_watch, .success {
+  color: #105e2a;
+}
+
+.error {
+  color: #890301 !important;
+}
+
+.border_error {
+  border-color: #890301 !important;
+}
+
+.pm_indicator {
+  background: #890301;
+  color: #FDFAFA;
+}
+
+/*----- 
+TOOLTIP
+-----*/
+.tooltip {
+  background: #311B1B;
+  color: #FDFAFA;
+}
+.tooltip a, .tooltip a:visited {
+  color: #FDFAFA;
+}
+.tooltip a:hover {
+  background: #4d2a2a;
+}
+
+/*----- 
+CALENDAR
+-----*/
+#main_grid .calendar_today, #month_grid .calendar_today {
+  background: #E0D1D1;
+}
+
+.previous_month .icon, .next_month .icon {
+  background: #FDFAFA;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+.weeklist > li {
+  border-bottom: 1px #E0D1D1 solid;
+  margin: 0;
+}
+
+/*# sourceMappingURL=index_red.css.map */

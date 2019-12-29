@@ -4,30 +4,30 @@ SASS VARIABLES
 
 /* main */
 
-$primary: #fafafd;
-$secondary: #1b1b31;
-$tertiary: #d1d1e0;
+$primary: #fafafd !default;
+$secondary: #1b1b31 !default;
+$tertiary: #d1d1e0 !default;
 
 /* main variants */
 
-$secondary-light: scale-color($secondary, $lightness: 10%);
-$tertiary-light: scale-color($tertiary, $lightness: 50%);
-$tertiary-lighter: scale-color($tertiary, $lightness: 70%);
+$secondary-light: scale-color($secondary, $lightness: 10%) !default;
+$tertiary-light: scale-color($tertiary, $lightness: 50%) !default;
+$tertiary-lighter: scale-color($tertiary, $lightness: 70%) !default;
 
 /* link colors */
 
-$link: #45617d;
-$link-visited: #44447c;
+$link: #45617d !default;
+$link-visited: #44447c !default;
 
 /* warnings, alerts, etc. */
 
-$warning: #bc6600;
-$warning-strong: #890301;
-$success: #105e2a;
+$warning: #bc6600 !default;
+$warning-strong: #890301 !default;
+$success: #105e2a !default;
 
-$warning-bg: scale-color($warning, $lightness: 70%);
-$warning-strong-bg: scale-color($warning-strong, $lightness: 70%);
-$success-bg: scale-color($success, $lightness: 70%);
+$warning-bg: scale-color($warning, $lightness: 70%) !default;
+$warning-strong-bg: scale-color($warning-strong, $lightness: 70%) !default;
+$success-bg: scale-color($success, $lightness: 70%) !default;
 
 /*----- 
 SASS MIXINS
