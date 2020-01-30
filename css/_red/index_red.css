@@ -22,7 +22,7 @@ GENERAL
 -----*/
 body {
   background: #FDFAFA;
-  color: #311B1B;
+  color: #970E0E;
   font-size: 1em;
 }
 
@@ -72,14 +72,14 @@ textarea {
 HEADERS
 -----*/
 header, h1, h2, .panel_toggle {
-  background: #311B1B;
+  background: #970E0E;
   color: #FDFAFA;
 }
 header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited, .panel_toggle a, .panel_toggle a:visited {
   color: #FDFAFA;
 }
 header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover {
-  background: #4d2a2a;
+  background: #b71111;
 }
 
 h3.panel_toggle .chevricon {
@@ -90,18 +90,18 @@ h3.panel_toggle .chevricon {
 NAVIGATION
 -----*/
 #menu_nav .linklevel1:hover {
-  background: #4d2a2a;
+  background: #b71111;
 }
 
 .menulevel2, .menulevel3 {
-  background: #311B1B;
+  background: #970E0E;
   color: #FDFAFA;
 }
 .menulevel2 a, .menulevel2 a:visited, .menulevel3 a, .menulevel3 a:visited {
   color: #FDFAFA;
 }
 .menulevel2 a:hover, .menulevel3 a:hover {
-  background: #4d2a2a;
+  background: #b71111;
 }
 
 .subsections:hover .linklevel1::after {
@@ -123,18 +123,18 @@ NAVIGATION
 }
 
 .linktree:last-child {
-  background: #311B1B;
+  background: #970E0E;
   color: #FDFAFA;
 }
 .linktree:last-child a, .linktree:last-child a:visited {
   color: #FDFAFA;
 }
 .linktree:last-child a:hover {
-  background: #4d2a2a;
+  background: #b71111;
 }
 
 .linktree:last-child::after {
-  background: #311B1B;
+  background: #970E0E;
 }
 
 /*----- 
@@ -187,14 +187,14 @@ POSTS
 TABLES
 -----*/
 .table_head {
-  background: #311B1B;
+  background: #970E0E;
   color: #FDFAFA;
 }
 .table_head a, .table_head a:visited {
   color: #FDFAFA;
 }
 .table_head a:hover {
-  background: #4d2a2a;
+  background: #b71111;
 }
 
 .table_head .i-sort-numeric-down::before {
@@ -251,14 +251,14 @@ ALERTS, WARNINGS, NOTIFICATIONS, ETC.
 TOOLTIP
 -----*/
 .tooltip {
-  background: #311B1B;
+  background: #970E0E;
   color: #FDFAFA;
 }
 .tooltip a, .tooltip a:visited {
   color: #FDFAFA;
 }
 .tooltip a:hover {
-  background: #4d2a2a;
+  background: #b71111;
 }
 
 /*----- 
