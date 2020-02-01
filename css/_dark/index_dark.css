@@ -21,8 +21,8 @@ ELKARTE "RESETS"
 GENERAL
 -----*/
 body {
-  background: #FDFAFA;
-  color: #970E0E;
+  background: #1b1b31;
+  color: #fafafd;
   font-size: 1em;
 }
 
@@ -34,30 +34,30 @@ body {
 LINKS
 -----*/
 a {
-  color: #122F59;
+  color: #83C9FF;
 }
 
 a:visited {
-  color: #122F59;
+  color: #83C9FF;
 }
 
 .linklevel1:hover {
-  background: #E0D1D1;
+  background: #1b1b31;
 }
 
 /*----- 
 BUTTONS & INPUTS
 -----*/
 button, select, input, input[type=submit], button[type=submit], input[type=button], textarea, #search_form button, .editor {
-  border: 1px #E0D1D1 solid;
+  border: 1px #1b1b31 solid;
 }
 
 button, input[type=submit], button[type=submit], input[type=button] {
-  background: #f0e8e8;
+  background: #7373b2;
 }
 
 button:hover, input[type=submit]:hover, button[type=submit]:hover, input[type=button]:hover {
-  background: #f6f1f1;
+  background: #ababd1;
 }
 
 #search_form button {
@@ -72,14 +72,14 @@ textarea {
 HEADERS
 -----*/
 header, h1, h2, .panel_toggle {
-  background: #970E0E;
-  color: #FDFAFA;
+  background: #fafafd;
+  color: #1b1b31;
 }
 header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited, .panel_toggle a, .panel_toggle a:visited {
-  color: #FDFAFA;
+  color: #1b1b31;
 }
 header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover {
-  background: #b71111;
+  background: #fbfbfd;
 }
 
 h3.panel_toggle .chevricon {
@@ -90,18 +90,18 @@ h3.panel_toggle .chevricon {
 NAVIGATION
 -----*/
 #menu_nav .linklevel1:hover {
-  background: #b71111;
+  background: #fbfbfd;
 }
 
 .menulevel2, .menulevel3 {
-  background: #970E0E;
-  color: #FDFAFA;
+  background: #fafafd;
+  color: #1b1b31;
 }
 .menulevel2 a, .menulevel2 a:visited, .menulevel3 a, .menulevel3 a:visited {
-  color: #FDFAFA;
+  color: #1b1b31;
 }
 .menulevel2 a:hover, .menulevel3 a:hover {
-  background: #b71111;
+  background: #fbfbfd;
 }
 
 .subsections:hover .linklevel1::after {
@@ -110,31 +110,31 @@ NAVIGATION
 
 /* breadcrumbs */
 .linktree, .linktree::after {
-  background: #E0D1D1;
+  background: #1b1b31;
 }
 
 .linktree {
-  border: 3px #FDFAFA solid;
+  border: 3px #1b1b31 solid;
   border-width: 3px 0;
 }
 
 .linktree::after {
-  box-shadow: 2px -2px 0 1px #FDFAFA;
+  box-shadow: 2px -2px 0 1px #1b1b31;
 }
 
 .linktree:last-child {
-  background: #970E0E;
-  color: #FDFAFA;
+  background: #fafafd;
+  color: #1b1b31;
 }
 .linktree:last-child a, .linktree:last-child a:visited {
-  color: #FDFAFA;
+  color: #1b1b31;
 }
 .linktree:last-child a:hover {
-  background: #b71111;
+  background: #fbfbfd;
 }
 
 .linktree:last-child::after {
-  background: #970E0E;
+  background: #fafafd;
 }
 
 /*----- 
@@ -180,31 +180,31 @@ POSTS
 }
 
 .post_wrapper {
-  border-bottom: 1px #E0D1D1 solid;
+  border-bottom: 1px #1b1b31 solid;
 }
 
 /*----- 
 TABLES
 -----*/
 .table_head {
-  background: #970E0E;
-  color: #FDFAFA;
+  background: #fafafd;
+  color: #1b1b31;
 }
 .table_head a, .table_head a:visited {
-  color: #FDFAFA;
+  color: #1b1b31;
 }
 .table_head a:hover {
-  background: #b71111;
+  background: #fbfbfd;
 }
 
 .table_head .i-sort-numeric-down::before {
-  background: #FDFAFA;
+  background: #1b1b31;
   position: relative;
   top: -3px;
 }
 
 .table_grid td {
-  border-color: #E0D1D1;
+  border-color: #1b1b31;
 }
 
 /*----- 
@@ -244,39 +244,39 @@ ALERTS, WARNINGS, NOTIFICATIONS, ETC.
 
 .pm_indicator {
   background: #890301;
-  color: #FDFAFA;
+  color: #1b1b31;
 }
 
 /*----- 
 TOOLTIP
 -----*/
 .tooltip {
-  background: #970E0E;
-  color: #FDFAFA;
+  background: #fafafd;
+  color: #1b1b31;
 }
 .tooltip a, .tooltip a:visited {
-  color: #FDFAFA;
+  color: #1b1b31;
 }
 .tooltip a:hover {
-  background: #b71111;
+  background: #fbfbfd;
 }
 
 /*----- 
 CALENDAR
 -----*/
 #main_grid .calendar_today, #month_grid .calendar_today {
-  background: #E0D1D1;
+  background: #1b1b31;
 }
 
 .previous_month .icon, .next_month .icon {
-  background: #FDFAFA;
+  background: #1b1b31;
   border-radius: 50%;
   padding: 1px;
 }
 
 .weeklist > li {
-  border-bottom: 1px #E0D1D1 solid;
+  border-bottom: 1px #1b1b31 solid;
   margin: 0;
 }
 
-/*# sourceMappingURL=index_red.css.map */
+/*# sourceMappingURL=index_dark.css.map */

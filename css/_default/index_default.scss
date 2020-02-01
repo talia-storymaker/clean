@@ -33,7 +33,7 @@ $success-bg: scale-color($success, $lightness: 70%) !default;
 SASS MIXINS
 -----*/
 
-@mixin secondary-bg-primary-txt {
+@mixin header-style {
     background: $secondary;
     color: $primary;
     a, a:visited {
@@ -121,7 +121,7 @@ HEADERS
 -----*/
 
 header, h1, h2, .panel_toggle {
-    @include secondary-bg-primary-txt;
+    @include header-style;
 }
 
 h3.panel_toggle .chevricon {
@@ -137,7 +137,7 @@ NAVIGATION
 }
 
 .menulevel2, .menulevel3 {
-    @include secondary-bg-primary-txt;
+    @include header-style;
 }
 
 .subsections:hover .linklevel1::after {
@@ -160,7 +160,7 @@ NAVIGATION
 }
 
 .linktree:last-child {
-    @include secondary-bg-primary-txt;
+    @include header-style;
 }
 
 .linktree:last-child::after {
@@ -213,7 +213,7 @@ TABLES
 -----*/
 
 .table_head {
-    @include secondary-bg-primary-txt;
+    @include header-style;
 }
 
 .table_head .i-sort-numeric-down::before {
@@ -272,7 +272,7 @@ TOOLTIP
 -----*/
 
 .tooltip {
-    @include secondary-bg-primary-txt;
+    @include header-style;
 }
 
 /*----- 
