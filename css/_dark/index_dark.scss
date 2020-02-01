@@ -1,26 +1,7 @@
-@import '../_default/index_default.scss';
-
-$primary: #1b1b31;
-$secondary: #fafafd;
-$tertiary: #1b1b31;
-$link: #83C9FF;
-$link-visited: #83C9FF;
-
-@mixin header-style {
-    background: $primary;
-    color: $secondary;
-    a, a:visited {
-        color: $primary;
-    }
-    a:hover {
-        background: $secondary-light;
-    }
-}
-
-/*@use '../_default/index_default.scss' with (
+@use '../_default/index_default.scss' with (
     $primary: #1b1b31,
     $secondary: #fafafd,
     $tertiary: #1b1b31,
     $link: #83C9FF,
     $link-visited: #83C9FF
-);*/
+);
