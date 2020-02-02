@@ -1,7 +1,38 @@
-@use '../_default/index_default.scss' with (
+@use '../_default/index_default.scss' as * with (
     $primary: #1b1b31,
     $secondary: #fafafd,
     $tertiary: #1b1b31,
     $link: #83C9FF,
     $link-visited: #83C9FF
 );
+
+@mixin header-style-variant {
+    background: $primary;
+    color: $secondary;
+    a, a:visited {
+        color: $secondary;
+    }
+    a:hover {
+        background: $secondary;
+    }
+}
+
+header, h1, h2, .panel_toggle {
+    @include header-style-variant;
+}
+
+.menulevel2, .menulevel3 {
+    @include header-style-variant;
+}
+
+.linktree:last-child {
+    @include header-style-variant;
+}
+
+.table_head {
+    @include header-style-variant;
+}
+
+.tooltip {
+    @include header-style-variant;
+}
