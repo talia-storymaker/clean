@@ -1,7 +1,15 @@
-@use '../_default/index_default.scss' with (
+/*@use '../_default/index_default.scss' with (
     $primary: #1b1b31,
     $secondary: #fafafd,
     $tertiary: #1b1b31,
     $link: #83C9FF,
     $link-visited: #83C9FF
-);
+);*/
+
+@use '../_default/index_default.scss' as *;
+
+$primary: #1b1b31;
+$secondary: #fafafd;
+$tertiary: #1b1b31;
+$link: #83C9FF;
+$link-visited: #83C9FF;

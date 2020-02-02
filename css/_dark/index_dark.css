@@ -21,8 +21,8 @@ ELKARTE "RESETS"
 GENERAL
 -----*/
 body {
-  background: #1b1b31;
-  color: #fafafd;
+  background: #fafafd;
+  color: #1b1b31;
   font-size: 1em;
 }
 
@@ -34,30 +34,30 @@ body {
 LINKS
 -----*/
 a {
-  color: #83C9FF;
+  color: #45617d;
 }
 
 a:visited {
-  color: #83C9FF;
+  color: #44447c;
 }
 
 .linklevel1:hover {
-  background: #1b1b31;
+  background: #d1d1e0;
 }
 
 /*----- 
 BUTTONS & INPUTS
 -----*/
 button, select, input, input[type=submit], button[type=submit], input[type=button], textarea, #search_form button, .editor {
-  border: 1px #1b1b31 solid;
+  border: 1px #d1d1e0 solid;
 }
 
 button, input[type=submit], button[type=submit], input[type=button] {
-  background: #7373b2;
+  background: #e8e8f0;
 }
 
 button:hover, input[type=submit]:hover, button[type=submit]:hover, input[type=button]:hover {
-  background: #ababd1;
+  background: #f1f1f6;
 }
 
 #search_form button {
@@ -72,14 +72,14 @@ textarea {
 HEADERS
 -----*/
 header, h1, h2, .panel_toggle {
-  background: #fafafd;
-  color: #1b1b31;
+  background: #1b1b31;
+  color: #fafafd;
 }
 header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited, .panel_toggle a, .panel_toggle a:visited {
-  color: #1b1b31;
+  color: #fafafd;
 }
 header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover {
-  background: #fbfbfd;
+  background: #2a2a4d;
 }
 
 h3.panel_toggle .chevricon {
@@ -90,18 +90,18 @@ h3.panel_toggle .chevricon {
 NAVIGATION
 -----*/
 #menu_nav .linklevel1:hover {
-  background: #fbfbfd;
+  background: #2a2a4d;
 }
 
 .menulevel2, .menulevel3 {
-  background: #fafafd;
-  color: #1b1b31;
+  background: #1b1b31;
+  color: #fafafd;
 }
 .menulevel2 a, .menulevel2 a:visited, .menulevel3 a, .menulevel3 a:visited {
-  color: #1b1b31;
+  color: #fafafd;
 }
 .menulevel2 a:hover, .menulevel3 a:hover {
-  background: #fbfbfd;
+  background: #2a2a4d;
 }
 
 .subsections:hover .linklevel1::after {
@@ -110,31 +110,31 @@ NAVIGATION
 
 /* breadcrumbs */
 .linktree, .linktree::after {
-  background: #1b1b31;
+  background: #d1d1e0;
 }
 
 .linktree {
-  border: 3px #1b1b31 solid;
+  border: 3px #fafafd solid;
   border-width: 3px 0;
 }
 
 .linktree::after {
-  box-shadow: 2px -2px 0 1px #1b1b31;
+  box-shadow: 2px -2px 0 1px #fafafd;
 }
 
 .linktree:last-child {
-  background: #fafafd;
-  color: #1b1b31;
+  background: #1b1b31;
+  color: #fafafd;
 }
 .linktree:last-child a, .linktree:last-child a:visited {
-  color: #1b1b31;
+  color: #fafafd;
 }
 .linktree:last-child a:hover {
-  background: #fbfbfd;
+  background: #2a2a4d;
 }
 
 .linktree:last-child::after {
-  background: #fafafd;
+  background: #1b1b31;
 }
 
 /*----- 
@@ -180,31 +180,31 @@ POSTS
 }
 
 .post_wrapper {
-  border-bottom: 1px #1b1b31 solid;
+  border-bottom: 1px #d1d1e0 solid;
 }
 
 /*----- 
 TABLES
 -----*/
 .table_head {
-  background: #fafafd;
-  color: #1b1b31;
+  background: #1b1b31;
+  color: #fafafd;
 }
 .table_head a, .table_head a:visited {
-  color: #1b1b31;
+  color: #fafafd;
 }
 .table_head a:hover {
-  background: #fbfbfd;
+  background: #2a2a4d;
 }
 
 .table_head .i-sort-numeric-down::before {
-  background: #1b1b31;
+  background: #fafafd;
   position: relative;
   top: -3px;
 }
 
 .table_grid td {
-  border-color: #1b1b31;
+  border-color: #d1d1e0;
 }
 
 /*----- 
@@ -244,39 +244,47 @@ ALERTS, WARNINGS, NOTIFICATIONS, ETC.
 
 .pm_indicator {
   background: #890301;
-  color: #1b1b31;
+  color: #fafafd;
 }
 
 /*----- 
 TOOLTIP
 -----*/
 .tooltip {
-  background: #fafafd;
-  color: #1b1b31;
+  background: #1b1b31;
+  color: #fafafd;
 }
 .tooltip a, .tooltip a:visited {
-  color: #1b1b31;
+  color: #fafafd;
 }
 .tooltip a:hover {
-  background: #fbfbfd;
+  background: #2a2a4d;
 }
 
 /*----- 
 CALENDAR
 -----*/
 #main_grid .calendar_today, #month_grid .calendar_today {
-  background: #1b1b31;
+  background: #d1d1e0;
 }
 
 .previous_month .icon, .next_month .icon {
-  background: #1b1b31;
+  background: #fafafd;
   border-radius: 50%;
   padding: 1px;
 }
 
 .weeklist > li {
-  border-bottom: 1px #1b1b31 solid;
+  border-bottom: 1px #d1d1e0 solid;
   margin: 0;
 }
+
+/*@use '../_default/index_default.scss' with (
+    $primary: #1b1b31,
+    $secondary: #fafafd,
+    $tertiary: #1b1b31,
+    $link: #83C9FF,
+    $link-visited: #83C9FF
+);*/
 
 /*# sourceMappingURL=index_dark.css.map */
