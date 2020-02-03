@@ -39,3 +39,7 @@ header, h1, h2, .panel_toggle, .menulevel2, .menulevel3, .linktree:last-child, .
 .linktree:last-child, .linktree:last-child::after {
     background: $primary-lighter;
 }
+
+header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover, .menulevel2 a:hover, .menulevel3 a:hover, .linktree:last-child a:hover, .table_head a:hover, .tooltip a:hover {
+    background: $primary-lighter;
+}
