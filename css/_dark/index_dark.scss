@@ -6,33 +6,36 @@
     $link-visited: #83C9FF
 );
 
+$primary-light: scale-color($primary, $lightness: 10%);
+$primary-lighter: scale-color($primary, $lightness: 20%);
+
 @mixin header-style-variant {
-    background: $primary;
+    background: $primary-light;
     color: $secondary;
     a, a:visited {
         color: $secondary;
     }
     a:hover {
-        background: $secondary;
+        background: $primary-light;
     }
 }
 
-header, h1, h2, .panel_toggle {
+/* changing all selectors that previously used the header-style mixin to use the hearder-style-variant mixin */
+
+header, h1, h2, .panel_toggle, .menulevel2, .menulevel3, .linktree:last-child, .table_head, .tooltip {
     @include header-style-variant;
 }
 
-.menulevel2, .menulevel3 {
-    @include header-style-variant;
+/* other styles */
+
+#menu_nav .linklevel1:hover {
+    background: $primary-lighter;
 }
 
-.linktree:last-child {
-    @include header-style-variant;
+.linktree, .linktree::after {
+    background: $primary-light;
 }
 
-.table_head {
-    @include header-style-variant;
-}
-
-.tooltip {
-    @include header-style-variant;
+.linktree:last-child, .linktree:last-child::after {
+    background: $primary-lighter;
 }

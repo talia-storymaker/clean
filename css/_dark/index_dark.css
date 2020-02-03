@@ -279,59 +279,29 @@ CALENDAR
   margin: 0;
 }
 
-header, h1, h2, .panel_toggle {
-  background: #1b1b31;
+/* changing all selectors that previously used the header-style mixin to use the hearder-style-variant mixin */
+header, h1, h2, .panel_toggle, .menulevel2, .menulevel3, .linktree:last-child, .table_head, .tooltip {
+  background: #2a2a4d;
   color: #fafafd;
 }
-header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited, .panel_toggle a, .panel_toggle a:visited {
+header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited, .panel_toggle a, .panel_toggle a:visited, .menulevel2 a, .menulevel2 a:visited, .menulevel3 a, .menulevel3 a:visited, .linktree:last-child a, .linktree:last-child a:visited, .table_head a, .table_head a:visited, .tooltip a, .tooltip a:visited {
   color: #fafafd;
 }
-header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover {
-  background: #fafafd;
+header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover, .menulevel2 a:hover, .menulevel3 a:hover, .linktree:last-child a:hover, .table_head a:hover, .tooltip a:hover {
+  background: #2a2a4d;
 }
 
-.menulevel2, .menulevel3 {
-  background: #1b1b31;
-  color: #fafafd;
-}
-.menulevel2 a, .menulevel2 a:visited, .menulevel3 a, .menulevel3 a:visited {
-  color: #fafafd;
-}
-.menulevel2 a:hover, .menulevel3 a:hover {
-  background: #fafafd;
+/* other styles */
+#menu_nav .linklevel1:hover {
+  background: #3a3a69;
 }
 
-.linktree:last-child {
-  background: #1b1b31;
-  color: #fafafd;
-}
-.linktree:last-child a, .linktree:last-child a:visited {
-  color: #fafafd;
-}
-.linktree:last-child a:hover {
-  background: #fafafd;
+.linktree, .linktree::after {
+  background: #2a2a4d;
 }
 
-.table_head {
-  background: #1b1b31;
-  color: #fafafd;
-}
-.table_head a, .table_head a:visited {
-  color: #fafafd;
-}
-.table_head a:hover {
-  background: #fafafd;
-}
-
-.tooltip {
-  background: #1b1b31;
-  color: #fafafd;
-}
-.tooltip a, .tooltip a:visited {
-  color: #fafafd;
-}
-.tooltip a:hover {
-  background: #fafafd;
+.linktree:last-child, .linktree:last-child::after {
+  background: #3a3a69;
 }
 
 /*# sourceMappingURL=index_dark.css.map */
