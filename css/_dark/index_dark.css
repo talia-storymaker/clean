@@ -21,7 +21,7 @@ ELKARTE "RESETS"
 GENERAL
 -----*/
 body {
-  background: #1b1b31;
+  background: #232340;
   color: #fafafd;
   font-size: 1em;
 }
@@ -73,10 +73,10 @@ HEADERS
 -----*/
 header, h1, h2, .panel_toggle {
   background: #fafafd;
-  color: #1b1b31;
+  color: #232340;
 }
 header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited, .panel_toggle a, .panel_toggle a:visited {
-  color: #1b1b31;
+  color: #232340;
 }
 header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover {
   background: #fbfbfd;
@@ -95,10 +95,10 @@ NAVIGATION
 
 .menulevel2, .menulevel3 {
   background: #fafafd;
-  color: #1b1b31;
+  color: #232340;
 }
 .menulevel2 a, .menulevel2 a:visited, .menulevel3 a, .menulevel3 a:visited {
-  color: #1b1b31;
+  color: #232340;
 }
 .menulevel2 a:hover, .menulevel3 a:hover {
   background: #fbfbfd;
@@ -114,20 +114,20 @@ NAVIGATION
 }
 
 .linktree {
-  border: 3px #1b1b31 solid;
+  border: 3px #232340 solid;
   border-width: 3px 0;
 }
 
 .linktree::after {
-  box-shadow: 2px -2px 0 1px #1b1b31;
+  box-shadow: 2px -2px 0 1px #232340;
 }
 
 .linktree:last-child {
   background: #fafafd;
-  color: #1b1b31;
+  color: #232340;
 }
 .linktree:last-child a, .linktree:last-child a:visited {
-  color: #1b1b31;
+  color: #232340;
 }
 .linktree:last-child a:hover {
   background: #fbfbfd;
@@ -188,17 +188,17 @@ TABLES
 -----*/
 .table_head {
   background: #fafafd;
-  color: #1b1b31;
+  color: #232340;
 }
 .table_head a, .table_head a:visited {
-  color: #1b1b31;
+  color: #232340;
 }
 .table_head a:hover {
   background: #fbfbfd;
 }
 
 .table_head .i-sort-numeric-down::before {
-  background: #1b1b31;
+  background: #232340;
   position: relative;
   top: -3px;
 }
@@ -244,7 +244,7 @@ ALERTS, WARNINGS, NOTIFICATIONS, ETC.
 
 .pm_indicator {
   background: #890301;
-  color: #1b1b31;
+  color: #232340;
 }
 
 /*----- 
@@ -252,10 +252,10 @@ TOOLTIP
 -----*/
 .tooltip {
   background: #fafafd;
-  color: #1b1b31;
+  color: #232340;
 }
 .tooltip a, .tooltip a:visited {
-  color: #1b1b31;
+  color: #232340;
 }
 .tooltip a:hover {
   background: #fbfbfd;
@@ -269,7 +269,7 @@ CALENDAR
 }
 
 .previous_month .icon, .next_month .icon {
-  background: #1b1b31;
+  background: #232340;
   border-radius: 50%;
   padding: 1px;
 }
@@ -281,31 +281,43 @@ CALENDAR
 
 /* changing all selectors that previously used the header-style mixin to use the hearder-style-variant mixin */
 header, h1, h2, .panel_toggle, .menulevel2, .menulevel3, .linktree:last-child, .table_head, .tooltip {
-  background: #2a2a4d;
+  background: #32325b;
   color: #fafafd;
 }
 header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited, .panel_toggle a, .panel_toggle a:visited, .menulevel2 a, .menulevel2 a:visited, .menulevel3 a, .menulevel3 a:visited, .linktree:last-child a, .linktree:last-child a:visited, .table_head a, .table_head a:visited, .tooltip a, .tooltip a:visited {
   color: #fafafd;
 }
 header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover, .menulevel2 a:hover, .menulevel3 a:hover, .linktree:last-child a:hover, .table_head a:hover, .tooltip a:hover {
-  background: #2a2a4d;
+  background: #32325b;
 }
 
 /* other styles */
 #menu_nav .linklevel1:hover {
-  background: #3a3a69;
+  background: #404075;
 }
 
 .linktree, .linktree::after {
-  background: #2a2a4d;
+  background: #32325b;
 }
 
 .linktree:last-child, .linktree:last-child::after {
-  background: #3a3a69;
+  background: #404075;
 }
 
 header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover, .menulevel2 a:hover, .menulevel3 a:hover, .linktree:last-child a:hover, .table_head a:hover, .tooltip a:hover {
-  background: #3a3a69;
+  background: #404075;
+}
+
+.errorbox, .warningbox, #warning_controls_title {
+  color: #232340;
+}
+
+#warning_controls a, .errorbox a {
+  color: #006dc1;
+}
+
+#admin_main_section, #supportVersionsTable .content, .quick_tasks, #core_features, #admin_form_wrapper, #admin_form_wrapper .content, #manage_maintenance, #manage_maintenance .content, .action_admin .generic_list_wrapper, #support_credits, #support_credits .content, #manage_attachments .content {
+  background: none !important;
 }
 
 /*# sourceMappingURL=index_dark.css.map */
