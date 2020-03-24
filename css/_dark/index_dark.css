@@ -21,7 +21,7 @@ ELKARTE "RESETS"
 GENERAL
 -----*/
 body {
-  background: #232340;
+  background: #2E2E4C;
   color: #fafafd;
   font-size: 1em;
 }
@@ -73,10 +73,10 @@ HEADERS
 -----*/
 header, h1, h2, .panel_toggle {
   background: #fafafd;
-  color: #232340;
+  color: #2E2E4C;
 }
 header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited, .panel_toggle a, .panel_toggle a:visited {
-  color: #232340;
+  color: #2E2E4C;
 }
 header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover {
   background: #fbfbfd;
@@ -95,10 +95,10 @@ NAVIGATION
 
 .menulevel2, .menulevel3 {
   background: #fafafd;
-  color: #232340;
+  color: #2E2E4C;
 }
 .menulevel2 a, .menulevel2 a:visited, .menulevel3 a, .menulevel3 a:visited {
-  color: #232340;
+  color: #2E2E4C;
 }
 .menulevel2 a:hover, .menulevel3 a:hover {
   background: #fbfbfd;
@@ -114,20 +114,20 @@ NAVIGATION
 }
 
 .linktree {
-  border: 3px #232340 solid;
+  border: 3px #2E2E4C solid;
   border-width: 3px 0;
 }
 
 .linktree::after {
-  box-shadow: 2px -2px 0 1px #232340;
+  box-shadow: 2px -2px 0 1px #2E2E4C;
 }
 
 .linktree:last-child {
   background: #fafafd;
-  color: #232340;
+  color: #2E2E4C;
 }
 .linktree:last-child a, .linktree:last-child a:visited {
-  color: #232340;
+  color: #2E2E4C;
 }
 .linktree:last-child a:hover {
   background: #fbfbfd;
@@ -188,17 +188,17 @@ TABLES
 -----*/
 .table_head {
   background: #fafafd;
-  color: #232340;
+  color: #2E2E4C;
 }
 .table_head a, .table_head a:visited {
-  color: #232340;
+  color: #2E2E4C;
 }
 .table_head a:hover {
   background: #fbfbfd;
 }
 
 .table_head .i-sort-numeric-down::before {
-  background: #232340;
+  background: #2E2E4C;
   position: relative;
   top: -3px;
 }
@@ -244,7 +244,7 @@ ALERTS, WARNINGS, NOTIFICATIONS, ETC.
 
 .pm_indicator {
   background: #890301;
-  color: #232340;
+  color: #2E2E4C;
 }
 
 /*----- 
@@ -252,10 +252,10 @@ TOOLTIP
 -----*/
 .tooltip {
   background: #fafafd;
-  color: #232340;
+  color: #2E2E4C;
 }
 .tooltip a, .tooltip a:visited {
-  color: #232340;
+  color: #2E2E4C;
 }
 .tooltip a:hover {
   background: #fbfbfd;
@@ -269,7 +269,7 @@ CALENDAR
 }
 
 .previous_month .icon, .next_month .icon {
-  background: #232340;
+  background: #2E2E4C;
   border-radius: 50%;
   padding: 1px;
 }
@@ -281,35 +281,35 @@ CALENDAR
 
 /* changing all selectors that previously used the header-style mixin to use the hearder-style-variant mixin */
 header, h1, h2, .panel_toggle, .menulevel2, .menulevel3, .linktree:last-child, .table_head, .tooltip {
-  background: #32325b;
+  background: #3d3d64;
   color: #fafafd;
 }
 header a, header a:visited, h1 a, h1 a:visited, h2 a, h2 a:visited, .panel_toggle a, .panel_toggle a:visited, .menulevel2 a, .menulevel2 a:visited, .menulevel3 a, .menulevel3 a:visited, .linktree:last-child a, .linktree:last-child a:visited, .table_head a, .table_head a:visited, .tooltip a, .tooltip a:visited {
   color: #fafafd;
 }
 header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover, .menulevel2 a:hover, .menulevel3 a:hover, .linktree:last-child a:hover, .table_head a:hover, .tooltip a:hover {
-  background: #32325b;
+  background: #3d3d64;
 }
 
 /* other styles */
 #menu_nav .linklevel1:hover {
-  background: #404075;
+  background: #4b4b7c;
 }
 
 .linktree, .linktree::after {
-  background: #32325b;
+  background: #3d3d64;
 }
 
 .linktree:last-child, .linktree:last-child::after {
-  background: #404075;
+  background: #4b4b7c;
 }
 
 header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover, .menulevel2 a:hover, .menulevel3 a:hover, .linktree:last-child a:hover, .table_head a:hover, .tooltip a:hover {
-  background: #404075;
+  background: #4b4b7c;
 }
 
 .errorbox, .warningbox, #warning_controls_title {
-  color: #232340;
+  color: #2E2E4C;
 }
 
 #warning_controls a, .errorbox a {
