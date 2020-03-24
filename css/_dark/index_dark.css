@@ -42,22 +42,22 @@ a:visited {
 }
 
 .linklevel1:hover {
-  background: #1b1b31;
+  background: #232340;
 }
 
 /*----- 
 BUTTONS & INPUTS
 -----*/
 button, select, input, input[type=submit], button[type=submit], input[type=button], textarea, #search_form button, .editor {
-  border: 1px #1b1b31 solid;
+  border: 1px #232340 solid;
 }
 
 button, input[type=submit], button[type=submit], input[type=button] {
-  background: #7373b2;
+  background: #7a7ab6;
 }
 
 button:hover, input[type=submit]:hover, button[type=submit]:hover, input[type=button]:hover {
-  background: #ababd1;
+  background: #afafd3;
 }
 
 #search_form button {
@@ -110,7 +110,7 @@ NAVIGATION
 
 /* breadcrumbs */
 .linktree, .linktree::after {
-  background: #1b1b31;
+  background: #232340;
 }
 
 .linktree {
@@ -180,7 +180,7 @@ POSTS
 }
 
 .post_wrapper {
-  border-bottom: 1px #1b1b31 solid;
+  border-bottom: 1px #232340 solid;
 }
 
 /*----- 
@@ -204,7 +204,7 @@ TABLES
 }
 
 .table_grid td {
-  border-color: #1b1b31;
+  border-color: #232340;
 }
 
 /*----- 
@@ -265,7 +265,7 @@ TOOLTIP
 CALENDAR
 -----*/
 #main_grid .calendar_today, #month_grid .calendar_today {
-  background: #1b1b31;
+  background: #232340;
 }
 
 .previous_month .icon, .next_month .icon {
@@ -275,7 +275,7 @@ CALENDAR
 }
 
 .weeklist > li {
-  border-bottom: 1px #1b1b31 solid;
+  border-bottom: 1px #232340 solid;
   margin: 0;
 }
 
