@@ -316,7 +316,7 @@ header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover, .menulevel2 a:hov
   color: #006dc1;
 }
 
-/* admin styles */
+/* admin */
 #admin_main_section, #supportVersionsTable .content, .quick_tasks, #core_features, #admin_form_wrapper, #admin_form_wrapper .content, #manage_maintenance, #manage_maintenance .content, .action_admin .generic_list_wrapper, #support_credits, #support_credits .content, #manage_attachments .content, #admin_main_section .content, #mailqueue_stats, #mailqueue_stats .content, #admin_newsletters, #admin_newsletters .content, #admin_content .content, #manage_boards li:nth-child(2n+1), #manage_boards li:nth-child(2n+1) > li:nth-child(2n), #manage_boards li:nth-child(2n+1) > li:nth-child(2n) > li:nth-child(2n+1), #manage_boards li:nth-child(2n+1) > li:nth-child(2n) > li:nth-child(2n+1) > li:nth-child(2n), #manage_boards li:nth-child(2n), #manage_boards li:nth-child(2n) > li:nth-child(2n+1), #manage_boards li:nth-child(2n) > li:nth-child(2n+1) > li:nth-child(2n), #manage_boards li:nth-child(2n) > li:nth-child(2n+1) > li:nth-child(2n) > li:nth-child(2n+1) {
   background: none !important;
 }
@@ -331,6 +331,12 @@ header a:hover, h1 a:hover, h2 a:hover, .panel_toggle a:hover, .menulevel2 a:hov
 
 #admin_content .error, #admin_content .alert {
   color: #E6605E !important;
+}
+
+/* calendar */
+.previous_month .icon, .next_month .icon {
+  background: none;
+  filter: invert(1);
 }
 
 /*# sourceMappingURL=index_dark.css.map */
